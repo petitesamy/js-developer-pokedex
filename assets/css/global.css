@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'PokeLetter' ;
+    src: url(/fonte/Pokemon\ Hollow.ttf) format('truetype');
+    font-style: normal;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -6,6 +12,9 @@
 body {
     background-color: #f6f8fc;
     background-image: url(/imagens/tela\ de\ fundo.jpg);
+    background-position: center top;
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
 .content {
@@ -13,6 +22,12 @@ body {
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
+}
+
+h1 {
+    font-family: 'PokeLetter', sans-serif;
+    font-size: 4rem;
+    text-align: center;
 }
 
 @media screen and (min-width: 992px) {
